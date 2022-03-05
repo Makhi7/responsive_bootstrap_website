@@ -1,0 +1,18 @@
+
+body{
+    font-family: montserrat;
+}
+.section-padding{
+    padding: 100px 0;
+}
+.line{
+    width: 200px;
+    background: crimson;
+    height: 3px;
+    margin: 25px 0;
+}
+header{
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+}
