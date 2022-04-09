@@ -16,3 +16,52 @@ header{
     z-index: 100;
     width: 100%;
 }
+.navbar-brand{
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.nav-link{
+    color: #000 !important;
+}
+.nav-sticky.cus-navbar{
+    margin-top: 0;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    color: #000 !important;
+}
+.nav-sticky.cus-navbar.cus-bg{
+    background-color: #fff;
+}
+
+/* banner */
+
+.banner{
+    position:relative;
+    background: url();
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    padding: 250px 0 200px;
+}
+.banner h2{
+    margin: 0;
+    padding: 0;
+    font-size: 2.8em;
+    font-weight: 700;
+}
+.banner p{
+    margin: 1em 0 0;
+    padding: 0;
+    font-size: 1.2em;
+    line-height:1.5em;
+    color: #969696;
+}
+.banner a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    padding: 10px 25px;
+    margin-top: 30px;
+
+}
